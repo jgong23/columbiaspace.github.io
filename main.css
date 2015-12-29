@@ -142,8 +142,10 @@ body a{
 .group-highlight .container {
 	width: 100%;
 
-	padding-left: 75px;
-	padding-right: 75px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	margin: 0 auto;
 }
 
 .group-highlight h2{
