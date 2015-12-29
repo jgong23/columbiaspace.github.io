@@ -42,6 +42,22 @@ body a{
 	max-height: 30px;
 }
 
+.navbar .navbar-nav {
+	float: none;
+	text-align: center;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+	max-height: 100%;
+}
+
+.navbar .dropdown-menu li a{
+	text-align: center;
+	padding: 5px 20px 5px 20px !important; 
+}
+
 /*Jumbotron*/
 
 .jumbotron {
@@ -240,16 +256,19 @@ body a{
 	#nav-logo {
 		display: none;
 	}
-}
-
-@media screen and (max-width: 767px){
 	#desktop-cal {
+		display: none;
+	}
+	#nav-desktop {
 		display: none;
 	}
 }
 
 @media not screen and (max-width: 767px){
 	#mobile-cal {
+		display: none;
+	}
+	#nav-mobile {
 		display: none;
 	}
 }
